@@ -11,6 +11,10 @@
     "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target lib ./src/index.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henaijiang/ts-npm-pro.git"
+  },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
