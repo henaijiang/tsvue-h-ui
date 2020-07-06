@@ -1,19 +1,10 @@
 # tsvue-h-ui
 
-## Project setup
-```
-npm install
-```
+## 全局引入 
+`import HUI from "tsvue-h-ui"`  
+`Vue.use(HUI)`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 或局部使用
+`import { HButton, HInput } from "tsvue-h-ui"`  
+`<HButton color={"red"} on-click={(e)=>{console.log(e)}}>测试按钮</HButton>`  
+`<HInput />`
